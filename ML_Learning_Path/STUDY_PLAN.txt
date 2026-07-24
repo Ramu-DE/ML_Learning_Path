@@ -1,0 +1,283 @@
+================================================================================
+         DATA SCIENCE & MACHINE LEARNING — COMPLETE STUDY PLAN
+                    From Beginner to Interview-Ready
+================================================================================
+
+FOLDER STRUCTURE
+----------------
+  ML_Learning_Path/                  ← Foundation notebooks (run in order)
+  ML_Learning_Path/Advanced_Notebooks/  ← Deep-dive interview prep
+
+================================================================================
+  PHASE 1 — FOUNDATIONS  (Week 1–2)
+================================================================================
+
+  [ ] 01 · Python Basics for Data Science
+        - Variables, lists, dicts, sets
+        - Functions, comprehensions, file I/O
+        - Error handling
+        Time: 2 hours
+
+  [ ] 01 · ADVANCED — Python Interview Prep  ★
+        - List vs comprehension vs generator (memory comparison)
+        - Mutable default arg trap
+        - *args / **kwargs / decorators
+        - Generators and yield
+        - OOP magic methods (__len__, __getitem__, method chaining)
+        - 15 interview traps with answers
+        Time: 3 hours
+
+  [ ] 02 · NumPy Fundamentals
+        - Arrays, broadcasting, indexing
+        - Aggregations, linear algebra
+        Time: 2.5 hours
+
+  [ ] 02 · ADVANCED — NumPy Interview Prep  ★
+        - Views vs copies (the silent bug)
+        - Broadcasting 3 rules + edge cases
+        - einsum (batch matmul, trace, outer product)
+        - SVD and eigenvalues in ML
+        - np.vectorize is NOT fast (proof)
+        - Shape (n,) vs (n,1) trap
+        Time: 3 hours
+
+  [ ] 03 · Pandas Data Analysis
+        - DataFrame, Series, GroupBy
+        - Merge, join, pivot tables
+        Time: 3 hours
+
+  [ ] 03 · ADVANCED — Pandas Interview Prep  ★
+        - loc vs iloc vs at vs iat trap
+        - SettingWithCopyWarning — what causes it
+        - iterrows slowdown proof (100x slower)
+        - apply vs vectorized performance
+        - Target encoding leakage
+        - Bollinger Bands with ewm
+        - Memory optimization (category dtype)
+        Time: 4 hours
+
+================================================================================
+  PHASE 2 — DATA SCIENCE SKILLS  (Week 2–3)
+================================================================================
+
+  [ ] 04 · Statistics & Probability  ★★ HIGH PRIORITY
+        - Probability distributions (Normal, Binomial, Poisson)
+        - Central Limit Theorem simulation
+        - Hypothesis testing (t-test, chi-square, ANOVA)
+        - A/B Testing framework
+        - Bayes Theorem (medical test example)
+        - Simpson's Paradox, Berkson's Paradox
+        Time: 3 hours
+
+  [ ] 04 · Data Visualization (Matplotlib + Seaborn)
+        - Line, bar, scatter, histogram, box, violin
+        - Seaborn heatmaps, pair plots
+        - EDA dashboards
+        Time: 2.5 hours
+
+  [ ] 05 · Exploratory Data Analysis
+        - EDA framework (always follow this checklist)
+        - Univariate / bivariate / multivariate
+        - Outlier detection
+        Time: 3 hours
+
+  [ ] 05 · ML Concepts Interview  ★★ HIGH PRIORITY
+        - Bias-variance tradeoff (math + code)
+        - Data leakage — 5 real examples
+        - Regularization: L1 vs L2 math
+        - Cross-validation strategies
+        - ROC vs PR curve (imbalanced data)
+        - Gradient descent variants (SGD, Adam)
+        - All evaluation metrics with business context
+        - Curse of dimensionality
+        Time: 4 hours
+
+  [ ] 06 · Feature Engineering & Preprocessing
+        - Imputation, encoding, scaling
+        - Sklearn Pipeline + ColumnTransformer
+        Time: 2.5 hours
+
+  [ ] 06 · ADVANCED — Feature Engineering Interview  ★
+        - MCAR / MAR / MNAR (most candidates don't know this)
+        - Target encoding leakage fix (CV-safe)
+        - Cyclical encoding (sin/cos for hours/months)
+        - Feature importance — why 4 methods disagree
+        - VIF and multicollinearity
+        - 6 production traps
+        Time: 3 hours
+
+================================================================================
+  PHASE 3 — MACHINE LEARNING ALGORITHMS  (Week 3–5)
+================================================================================
+
+  [ ] 07 · Linear Regression
+        - Simple, Multiple, Polynomial
+        - Ridge (L2) and Lasso (L1)
+        - R², RMSE, MAE
+        Time: 3 hours
+
+  [ ] 08 · Logistic Regression & Classification
+        - Sigmoid, decision boundary
+        - Precision vs Recall tradeoff
+        - ROC curve, AUC
+        - Threshold tuning
+        Time: 3 hours
+
+  [ ] 09 · Decision Trees & Random Forests
+        - Gini impurity, entropy
+        - Overfitting with max_depth
+        - Feature importance
+        - GridSearchCV
+        Time: 3 hours
+
+  [ ] 10 · SVM & KNN
+        - SVM kernels (linear vs RBF)
+        - C parameter (regularization)
+        - Choosing K in KNN
+        - When to use each
+        Time: 2.5 hours
+
+  [ ] 11 · Gradient Boosting & XGBoost
+        - Bagging vs Boosting concept
+        - Learning rate + n_estimators tradeoff
+        - Early stopping
+        - Feature importance
+        Time: 3 hours
+
+================================================================================
+  PHASE 4 — UNSUPERVISED & ADVANCED  (Week 5–6)
+================================================================================
+
+  [ ] 12 · Clustering (K-Means, DBSCAN, Hierarchical)
+        - Elbow method + Silhouette score
+        - When K-Means fails (non-spherical)
+        - Customer segmentation project
+        Time: 2.5 hours
+
+  [ ] 13 · Dimensionality Reduction (PCA, t-SNE)
+        - Scree plot, explained variance
+        - PCA before ML (when and why)
+        - t-SNE for visualization only
+        Time: 2.5 hours
+
+  [ ] 14 · Model Selection & Cross-Validation  ★★ HIGH PRIORITY
+        - Why single train/test split is unreliable
+        - K-Fold, Stratified, TimeSeriesSplit
+        - Correct evaluation protocol
+        - Never use test set more than once
+        Time: 2.5 hours
+
+  [ ] 15 · Neural Networks
+        - Perceptron, MLP from scratch
+        - Activation functions
+        - sklearn MLPClassifier
+        - Keras (optional)
+        Time: 4 hours
+
+  [ ] 16 · Time Series Analysis
+        - Trend, seasonality, residual
+        - Stationarity and ADF test
+        - ARIMA
+        - ML with lag features
+        Time: 3 hours
+
+  [ ] 17 · NLP & Text Analysis
+        - Bag of Words vs TF-IDF
+        - Sentiment analysis
+        - Topic modeling (LDA)
+        Time: 3 hours
+
+================================================================================
+  PHASE 5 — CAPSTONE PROJECTS  (Week 6–7)
+================================================================================
+
+  [ ] 18 · End-to-End ML Project
+        - Bank marketing dataset (5000 rows)
+        - Full pipeline: EDA → Feature Eng → Model → Deploy
+        - Model saving with joblib
+        - Production prediction function
+        Time: 4 hours
+
+  [ ] 19 · Advanced Topics
+        - Imbalanced datasets (SMOTE, class_weight)
+        - Anomaly detection (Isolation Forest, LOF)
+        - Stacking ensembles
+        - SHAP explainability
+        Time: 3 hours
+
+================================================================================
+  INTERVIEW QUICK-PREP  (Final Week — Revise Everything)
+================================================================================
+
+  MOST ASKED INTERVIEW TOPICS (study these first if short on time):
+
+  [ ] 1.  Bias-Variance Tradeoff              → 05_ML_Concepts
+  [ ] 2.  Overfitting — causes and fixes      → 05_ML_Concepts
+  [ ] 3.  Precision vs Recall vs F1 vs AUC    → 08_Logistic_Regression
+  [ ] 4.  How to handle imbalanced data       → 19_Advanced_Topics
+  [ ] 5.  What is data leakage?               → 05_ML_Concepts
+  [ ] 6.  L1 vs L2 regularization             → 07_Linear_Regression
+  [ ] 7.  Random Forest vs Gradient Boosting  → 09_Trees + 11_GBM
+  [ ] 8.  How does cross-validation work?     → 14_Model_Selection
+  [ ] 9.  p-value and A/B testing             → 04_Statistics
+  [ ] 10. What is the curse of dimensionality → 05_ML_Concepts
+  [ ] 11. PCA — what it does and when to use  → 13_PCA
+  [ ] 12. How to handle missing data          → 06_Feature_Engineering
+  [ ] 13. Explain a confusion matrix          → 08_Logistic_Regression
+  [ ] 14. What is MCAR / MAR / MNAR           → 06_Advanced_Feature_Eng
+  [ ] 15. Encoding categorical variables      → 06_Advanced_Feature_Eng
+
+================================================================================
+  ESTIMATED TOTAL STUDY TIME
+================================================================================
+
+  Phase 1 — Foundations        :  ~17 hours
+  Phase 2 — Data Science Skills:  ~18 hours
+  Phase 3 — ML Algorithms      :  ~17 hours
+  Phase 4 — Unsupervised/Adv   :  ~17 hours
+  Phase 5 — Capstone Projects  :   ~7 hours
+  Interview Revision           :   ~5 hours
+                                 ----------
+  TOTAL                        : ~81 hours
+                                 (7-8 weeks at 2-3 hrs/day)
+                                 (4 weeks at 5 hrs/day, aggressive pace)
+
+================================================================================
+  DAILY STUDY TARGETS  (Aggressive Pace — 5 hrs/day)
+================================================================================
+
+  Day 01  Python Basics + Advanced Python
+  Day 02  NumPy Basics + Advanced NumPy
+  Day 03  Pandas Basics + Advanced Pandas
+  Day 04  Statistics & Probability (full day — very important)
+  Day 05  Data Visualization + EDA
+  Day 06  ML Concepts Interview (full day — most tested in interviews)
+  Day 07  Feature Engineering Basics + Advanced
+  Day 08  Linear Regression + Logistic Regression
+  Day 09  Decision Trees + Random Forests
+  Day 10  SVM + KNN + Gradient Boosting
+  Day 11  Clustering + PCA + Model Selection
+  Day 12  Neural Networks + Time Series
+  Day 13  NLP + End-to-End Project
+  Day 14  Advanced Topics + Full revision of Interview Quick-Prep list
+
+================================================================================
+  HOW TO OPEN NOTEBOOKS
+================================================================================
+
+  Option 1 — Browser (recommended):
+    Open http://localhost:8888 in your browser
+
+  Option 2 — VS Code:
+    Ctrl+Shift+P -> Select Notebook Kernel -> Existing Jupyter Server
+    URL: http://localhost:8888
+
+  To restart Jupyter server if it stopped (run in terminal):
+    python3 -m jupyter notebook --no-browser --port=8888 --ip=0.0.0.0 \
+      --ServerApp.token='' --ServerApp.password='' \
+      --notebook-dir=/workshop/DataScience/PythonDataScienceHandbook/PythonDataScienceHandbook/ML_Learning_Path
+
+================================================================================
+  ★ = Must-do before any interview
+  ★★ = Highest priority — studied most in interviews
+================================================================================
