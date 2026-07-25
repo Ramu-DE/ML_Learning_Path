@@ -55,6 +55,7 @@ Real implementation notebooks based on top ML resources.
 | 06 | ML System Design | Fraud detection, recommendation engine, FAANG Q&As |
 | 07 | Computer Vision | HOG, IoU, NMS, ResNet skip connections |
 | 08 | Kaggle Competition Strategies | Stacking, Optuna tuning, pseudo-labeling |
+| 09 | How Search Works | Exact match, TF-IDF, semantic embeddings, visualisation of search spaces |
 
 ## How to Run
 
