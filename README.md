@@ -95,3 +95,4 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy \
 | 02 | Day02_Database_Separation | Web tier vs data tier split, SQL vs NoSQL, four NoSQL models, decision framework |
 | 03 | Day03_Load_Balancer | Load balancer architecture, 4 routing algorithms, vertical vs horizontal scaling, failover, auto-scaling |
 | 04 | Day04_Database_Replication | Master-Slave replication, sync/async/semi-sync modes, failover promotion, read/write split, trade-off analysis |
+| 05 | Day05_Cache | Cache hit/miss flow, Read-Through/Write-Through/Write-Behind/Cache-Aside strategies, TTL, LRU/LFU eviction, consistency, SPOF |
