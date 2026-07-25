@@ -85,3 +85,10 @@ statsmodels xgboost imbalanced-learn shap tensorflow
 pip install numpy pandas matplotlib seaborn scikit-learn scipy \
   statsmodels xgboost imbalanced-learn shap tensorflow
 ```
+
+### SystemDesign/
+60-day system design series — one notebook per day, architecture diagrams + bottleneck analysis.
+
+| Day | Notebook | Topic |
+|---|---|---|
+| 01 | Day01_Single_Server_Setup | Single server architecture, request flow, bottlenecks, scaling triggers |
