@@ -98,3 +98,4 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy \
 | 05 | Day05_Cache | Cache hit/miss flow, Read-Through/Write-Through/Write-Behind/Cache-Aside strategies, TTL, LRU/LFU eviction, consistency, SPOF |
 | 06 | Day06_CDN | Global CDN architecture, 6-step workflow, latency impact, TTL lifecycle, invalidation, Pull vs Push CDN, provider landscape |
 | 07 | Day07_Stateless_MultiDC | Stateful sticky-session problem, stateless shared store, autoscaling, multi-data-center with GeoDNS, cross-DC replication, failover |
+| 08 | Day08_Data_Centers | GeoDNS resolution flow, traffic split x%/(100-x)%, DC outage failover sequence, data sync strategies, RTO/RPO, multi-DC deploy pipeline |
