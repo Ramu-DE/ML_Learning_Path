@@ -93,3 +93,4 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy \
 |---|---|---|
 | 01 | Day01_Single_Server_Setup | Single server architecture, request flow, bottlenecks, scaling triggers |
 | 02 | Day02_Database_Separation | Web tier vs data tier split, SQL vs NoSQL, four NoSQL models, decision framework |
+| 03 | Day03_Load_Balancer | Load balancer architecture, 4 routing algorithms, vertical vs horizontal scaling, failover, auto-scaling |
